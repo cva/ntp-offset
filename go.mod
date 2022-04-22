@@ -1,9 +1,11 @@
 module ntp-offset
 
-go 1.15
+go 1.18
+
+require github.com/beevik/ntp v0.3.0
 
 require (
-	github.com/beevik/ntp v0.3.0
-	github.com/stretchr/testify v1.6.1 // indirect
-	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b // indirect
+	github.com/stretchr/testify v1.7.1 // indirect
+	golang.org/x/net v0.0.0-20220421235706-1d1ef9303861 // indirect
+	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e // indirect
 )
